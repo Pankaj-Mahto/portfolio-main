@@ -29,7 +29,7 @@ const projects = [
     // link: "#",
     color: "#8f89ff",
     githubLink: "https://github.com/Pankaj-Mahto/portfolio-main",
-    liveLink: "https://dashboard.render.com/",
+    liveLink: "https://pankajmahto.onrender.com",
   },
   {
     title: "🚀  Nextgen-Nexus",
