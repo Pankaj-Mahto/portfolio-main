@@ -28,8 +28,8 @@ const projects = [
     src: portfolioImg,
     // link: "#",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Pankaj-Mahto/portfolio-main",
+    liveLink: "https://dashboard.render.com/",
   },
   {
     title: "🚀  Nextgen-Nexus",
