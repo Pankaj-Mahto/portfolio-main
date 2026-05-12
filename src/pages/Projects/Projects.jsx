@@ -4,10 +4,12 @@ import { useRef, useEffect } from "react";
 
 import PropTypes from "prop-types";
 
-import docImg from "@/assets/images/Docs-Lite.jpg";
-import portfolioImg from "@/assets/images/portfolio.png";
-import nectgenNexusImg from "@/assets/images/nextgen-nexus.png";
-import resturentImg from "@/assets/images/resturent.png";
+import docImg from "../../assets/images/Docs-Lite.jpg";
+import portfolioImg from "../../assets/images/portfolio.png";
+import nectgenNexusImg from "../../assets/images/nextgen-nexus.png";
+import resturentImg from "../../assets/images/resturent.png";
+import finsightDashboardImg from "../../assets/images/finance.png"
+import hackerNewsHubImg from "../../assets/images/web_scraper.png";
 
 
 const projects = [
@@ -36,7 +38,6 @@ const projects = [
     description:
       "A full-stack application built with the MERN stack. Users can search and apply for jobs, create professional resumes using the built-in resume builder, and track their applications. 💻✨",
     src: nectgenNexusImg,
-    // link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
     color: "#fff",
     githubLink: "https://github.com/Pankaj-Mahto/nextgen-nexus-prod",
     liveLink: "https://nextgen-nexus-prod.onrender.com/",
@@ -46,11 +47,28 @@ const projects = [
     description:
       "A beautifully designed restaurant app UI clone built using React. This project focuses on UI/UX design, showcasing a modern restaurant interface including menus, reservations, and homepage layouts. ",
     src: resturentImg,
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
     color: "#ed649e",
     githubLink: "https://github.com/Pankaj-Mahto/Resturent_app-UI_clone",
     liveLink: "https://resturent-app-ui-clone.onrender.com/",
   },
+  {
+  title: "💰 FinSight Dashboard",
+  description:
+    "A high-fidelity finance dashboard built with React + JavaScript featuring transaction management, smart financial insights, role-based access control, interactive charts, dark mode, and responsive UI. 📊✨",
+  src: finsightDashboardImg,
+  color: "#fff",
+  githubLink: "https://github.com/Pankaj-Mahto/finance-dashboard",
+  liveLink: "https://finance-dashboard-qoyf.onrender.com/",
+},
+{
+  title: "🚀 HackerNews Story Hub",
+  description:
+    "A full-stack MERN application that scrapes top news.ycombinator stories, stores them in MongoDB, and allows authenticated users to bookmark and manage stories with secure JWT authentication and responsive UI. 📰✨",
+  src: hackerNewsHubImg,
+  color: "#fff",
+  githubLink: "https://github.com/Pankaj-Mahto/hacknews-story-hub",
+  liveLink: "https://hacknews-story-hub.onrender.com/",
+},
 ];
 
 export default function Projects() {
